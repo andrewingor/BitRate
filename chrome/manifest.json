@@ -24,7 +24,7 @@
 
   "background": {
     "persistent": false,
-     "page": "index.html"
+     "scripts": [ "background.js" ]
   },
 
   "permissions": [
