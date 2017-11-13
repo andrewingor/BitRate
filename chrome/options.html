@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta version="$Id: $"/>
+    <title>BitRate: Options</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript">
+    </script>
+    <script type="text/javascript" src="jquery.chili.min.js"></script>
+    <script type="text/javascript" src="jquery.chili.recipes.js"></script>
+    <script type="text/javascript" src="requester.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="_msg_">name</h1>
+    </header>
+  Favorite color:
+  <select id="color">
+   <option value="red">red</option>
+   <option value="green">green</option>
+   <option value="blue">blue</option>
+   <option value="yellow">yellow</option>
+  </select>
+
+  <label>
+    <input type="checkbox" id="like">
+    I like colors.
+  </label>
+
+  <div id="status"></div>
+  <button id="save">Save</button>
+
+  <script src="options.js"></script>
+
+    <footer>
+      <p>Copyright &copy;2017 <a href="http://sites.google.com/view/maxlancer ">Max Lancer</a> - <span class="_msg_">source</span> - <span class="_msg_">icon</span></p>
+    </footer>
+  </body>
+  <script text="text/javascript">
+    $(":input:first").focus();  
+  </script>
+</html>

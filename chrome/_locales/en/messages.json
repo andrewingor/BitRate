@@ -1,0 +1,18 @@
+{
+  "name": {"message": "BitRate"},
+  "description": {"message": "CryptoStocks News"},
+  "request": {"message": "Request"},
+  "debuglink": {"message": "Debug link"},
+  "url": {"message": "URL:"},
+  "method": {"message": "Method:"},
+  "headers": {"message": "Headers:"},
+  "data": {"message": "Data:"},
+  "send": {"message": "Send"},
+  "clear": {"message": "Clear"},
+  "response": {"message": "Response"},
+  "processing": {"message": "Processing"},
+  "status": {"message": "Status:"},
+  "bad_request": {"message": "Bad request"},
+  "source": {"message": "<a href='http://github.com/andrewingor/BitRate'>Source code</a> licensed under <a href='http://github.com/andrewingor/BitRate/blob/master/LICENSE'>Devils Contract License</a>"},
+  "icon": {"message": "icon by " }
+}

@@ -2,24 +2,37 @@
   "manifest_version": 2,
 
   "name": "BitRate",
-  "description": "CryptoCoins Rates and Charts",
-  "version": "$Id$",
+  "version": "0.0",
+  "version_name": "$Id$",
+  "description": "Crypto Stocks Rates Charts News",
 
   "default_locale": "en",
-  "icons": { },
+  "icons": {
+     "512": "icons/bitrate.png"
+  },
 
   "browser_action": {
-    "default_icon": "icons/bitrate.png",
+    "default_icon": "icons/bitrate_128.png",
     "default_title": "BitRate",
     "default_popup": "popup.html"
   },
 
+  "options_ui": { 
+    "page": "options.html",
+    "chrome_style": true
+  },
+
+  "background": {
+    "persistent": false,
+     "page": "index.html"
+  },
+
   "permissions": [
     "debugger",
-    "activeTab",
     "alarms",
-    "storage",
-    "WebRequest",
-    "https://api.coinmarketcap.com/v1/ticker/?convert=USD"
+    "tabs",
+    "webNavigation",
+    "http://*/*",
+    "https://*/*"
   ]
 }
